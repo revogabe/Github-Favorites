@@ -158,16 +158,17 @@ td.user a {
   text-decoration: none;
 }
 
-.buttonTrash {
+td .buttonTrash {
+  cursor: pointer;
   padding: 8px;
   border-radius: 4px;
   border: none;
   background-color: rgb(235, 32, 32) !important;
-
+  
   transition: all 0.3s ease-out;
 }
 
-.buttonTrash:hover {
+td .buttonTrash:hover {
   transform: scale(1.1);
 }
 
